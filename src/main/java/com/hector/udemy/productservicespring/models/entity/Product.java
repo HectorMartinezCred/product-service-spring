@@ -33,7 +33,7 @@ public class Product implements Serializable {
     @Column(name = "price", nullable = false)
     private Double price;
 
-    @Column(name = "create_date", nullable = false)
+    @Column(name = "created_date", nullable = false)
     @Temporal(TemporalType.TIMESTAMP)
     private Date createDate;
 
